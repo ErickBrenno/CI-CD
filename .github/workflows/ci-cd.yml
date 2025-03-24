@@ -9,6 +9,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      - name: Chechout do Código
+        uses: actions/checkout@V3
       - name: Instalar o Poetry
         run: |
           curl -sSL https://install.python-poetry.org | python3 -
