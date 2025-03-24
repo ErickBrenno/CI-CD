@@ -33,4 +33,4 @@ jobs:
       - name: Verificar mypy
         run: poetry run mypy jogo.py
       - name: Verificar radon
-        run: poetry run radon jogo.py
+        run: poetry run radon cc jogo.py
